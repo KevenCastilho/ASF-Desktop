@@ -1,0 +1,7 @@
+# ASF Desktop v2 — runtime
+# Python 3.11+ recommended
+
+# stdlib only for core UI (tkinter ships with CPython on Win/Linux desktop builds)
+# Optional helpers:
+requests>=2.31.0
+psutil>=5.9.0

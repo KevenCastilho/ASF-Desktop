@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+
+# Virtual env
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller / build
+build/
+dist/
+*.manifest
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime local do Desktop (nunca commitar)
+settings.json
+**/settings.json
+last-crash.txt
+*.log
+logs/
+DesktopUpdates/
+ASF/
+.local-asf/
+
+# Segredos / configs ASF se caírem na pasta do repo
+**/config/*.json
+maFiles/
+*.maFile
+
+# Zips locais (release = GitHub Releases, não git)
+*.zip
+*.7z
+*.rar
+
+# Env
+.env
+.env.*
